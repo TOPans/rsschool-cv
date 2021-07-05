@@ -1,1 +1,0 @@
-https://TOPans.github.io/rsschool-cv/cv
