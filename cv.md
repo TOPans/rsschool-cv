@@ -30,3 +30,5 @@ I want to master the field of web development, Javascript is especially interest
 * 2010-2014 - Polotsk State University (Software Engineer)
 * 2018 - English courses at the Vitebsk school "Light English"
 * 2018 - Software testing basics courses in Andersen
+
+# English level: A2
