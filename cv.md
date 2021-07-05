@@ -1,6 +1,7 @@
 # Sergey Krukouski
 
 * Mail: <TOPans@mail.ru>
-* Skype: topans1
-* Telegram: @TOPansv
-* +375 29 512 40 83
+* Skype: <skype:topans1>
+* Telegram: <tg://resolve?domain=TOPansv>
+* <tel:+375 29 512 40 83>
+
