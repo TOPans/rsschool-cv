@@ -1,1 +1,1 @@
-https://TOPans.github.io/rsschool-cv/cv
+https://TOPans.github.io/rsschool-cv/
