@@ -1,0 +1,32 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: "Calibri";
+  font-size: 18pt;
+  font-style: bold;
+}
+
+h2 {
+  font-family: "Calibri";
+  font-size: 16pt;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Calibri";
+  font-size: 16pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
