@@ -85,44 +85,6 @@ body {
         }
 }
 
-
-// .nav {
-//     display: flex;
-//     justify-content: flex-end;
-//     z-index: 2;
-//     &__menu {
-//         width: 80%;
-//         height: auto;
-//         margin-top: 40px;
-//         margin-bottom: 40px;
-//         & ul {
-//             display: flex;
-//             justify-content: space-between;
-//             padding: 0;
-//             & li {
-//                 list-style: none;
-//                 transition: transform 0.2s;
-//                 text-transform: uppercase;
-//                 font-weight: 700;
-//             }
-//             & li:hover {
-//                 transform: scale(1.05);
-//                 transition: transform border 0.2s;
-//             }
-//             & a {
-//                 transition: border 0.3s;
-//                 font-family: sans-serif;
-//                 color: #585858;
-//                 text-decoration: none;
-//             } 
-//             & a:hover {
-//                 color: black;
-//                 border-bottom: 2px solid;
-//             }
-//         }
-//     } 
-// }
-
 .home {
     display: flex;
     justify-content: space-between;
@@ -408,6 +370,7 @@ body {
             margin: 0px;
             & figure {
                 width: 70%;
+                height: 70%;
             }
         }
         & .aim-contacts {
