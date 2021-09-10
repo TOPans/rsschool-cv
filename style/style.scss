@@ -94,7 +94,6 @@ body {
         & figure {
             display: flex;
             flex-flow: column;
-            max-width: 100%;
             margin: auto;
             & figcaption {
                 background-color: var(--light-black);
