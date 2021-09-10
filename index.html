@@ -10,31 +10,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>   
 		<title>Sergey Krukouski</title>
 	</head>
-	<body>
-    <header class="heder" id="header">
-      <nav class="nav container">
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#education" class="nav__link">Education</a>
-            </li>
-            <li class="nav__item">
-              <a href="#experience" class="nav__link">Experience</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">Portfolio</a>
-            </li>
-          </ul>
+	<body id="body">
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__body">
+          <div class="header__burger" id="header_burger">
+            <span></span>
+          </div>
+          <nav class="header__menu" id="header_menu">
+            <ul class="header__list">
+              <li>
+                <a href="#home" class="header__link">Home</a>
+              </li>
+              <li>
+                <a href="#education" class="header__link">Education</a>
+              </li>
+              <li>
+                <a href="#experience" class="header__link">Experience</a>
+              </li>
+              <li>
+                <a href="#skills" class="header__link">Skills</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="header__link">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-      </nav>
+      </div>
     </header>
     
 		<main class="main">
@@ -195,11 +201,11 @@
 			<footer class="footer">
           <div class="footer__wrapper container">
             <a href="https://github.com/TOPans" target="_blank">
-              <img src="./img/github.svg" alt="github" width="60" />
+              <img src="./img/github.svg" alt="github"/>
             </a>
             <h3>2021</h3>
             <a href="https://rs.school/js/" target="_blank">
-              <img src="./img/rs_school_js.svg" alt="RSS" width="130"/>
+              <img src="./img/rs_school_js.svg" alt="RSS"/>
             </a>
 				</div>
 			</footer>
