@@ -492,6 +492,10 @@ body {
     width: 70%;
     height: 70%;
   }
+  .home__avatar figure img {
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
   .home .aim-contacts ul {
     width: 90%;
   }
