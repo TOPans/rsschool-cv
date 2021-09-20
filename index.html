@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/vs.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <script defer src="script.js"></script>   
 		<title>Sergey Krukouski</title>
 	</head>
@@ -163,12 +166,22 @@
           <br>
           <div class="portfolio__wrapper">
             <div class="portfolio__code">
-              <a href="https://github.com/TOPans/morse-decoder/blob/master/src/index.js" title="morse-decoder" target="_blank">
                 <figure>
                   <figcaption>Example of My Code <br> develop morse decoder <br> Javascript</figcaption>
-                  <img src="./img/code.png" alt="Code"/>
+                  <pre><code class="language-javascript">
+function decode(expr) {
+  return expr
+  .match(/.{10}/g)
+  .map(x => 
+    x == "**********"
+    ? " "
+    : MORSE_TABLE[
+    x.replace(/00/g, "")
+    .replace(/10/g, ".")
+    .replace(/11/g, "-")])       
+    .join('');     
+}</code></pre>
                 </figure>
-              </a>
             </div>
             <div class="portfolio__code">
               <a href="https://rolling-scopes-school.github.io/topans-JSFEPRESCHOOL/museum/" title="museum" target="_blank">
